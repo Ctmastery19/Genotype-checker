@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genotype compatibility checker</title>
+    <link rel="stylesheet" href="genochecker.css">
+</head>
+<body>
+    <!--Header section-->
+    <header class="Header">
+        <img src="genocheckerlogo.png" alt="genocheckerlogo" id="webpagelogo">
+        <h1> Genotype compatibility Checker</h1>
+        <nav class="mainnav" role="navigation" aria-label="Main-Navigation">
+            <ul>
+                <li><a>Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--CheckerBox-->
+    <div class="checkerlayout">
+        <h2>Genotype compatibility checker</h2>
+        <p>Kindly provide both genotypes to evaluate compatibility</p>
+
+        <!--checker form-->
+        <form class="checkerlayoutform">
+
+            <!--label 1-->
+            <label for="genoType1">
+                Genotype 1
+            </label>
+            <input type="text" id="genoType1" placeholder="Input AA,AS or SS"><br>
+
+            <!--label 2-->
+            <label for="genoType2">
+                Genotype 2
+            </label>
+            <input type="text" id="genoType2" placeholder="Input AA,AS or SS"><br>
+
+            <!--Button-->
+            <button onclick="checkBg()">check</button>
+
+            <p id="resultCheck"></p>
+        </form>
+    </div>
+    <script src="genochecker.js"></script>
+</body>
+</html>

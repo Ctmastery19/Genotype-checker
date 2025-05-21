@@ -1,0 +1,83 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(genocheckerbgalt.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0%;
+}
+
+/*Header design*/
+.Header {
+    display: flex;
+    flex-flow: row unwrapped;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0%;
+    background-color: rgb(222, 231, 231);
+    height: 50px;
+    border-radius: 10px;
+}
+
+
+#webpagelogo {
+    width: 115px;
+    height: 115px;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 0px;
+}
+
+.mainnav ul {
+    margin-right: 20px;
+    list-style-type: none;
+    padding: 0px;
+}
+
+
+
+.Header h1 {
+    padding: 0px;
+}
+.mainnav ul li {
+    background-color: rgb(58, 115, 180);
+    padding: 7px;
+    border-radius: 5px;
+    color: white;
+}
+
+/*checker layout design*/
+
+body .checkerlayout{
+    font-size: large;
+}
+.checkerlayout {
+    text-align: center;
+    background: rgb(222, 231, 231,75%);
+    padding: 50px;
+    border-radius: 10px;
+    width: fit-content;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+}
+
+
+
+#genoType2 {
+    margin: 10px;
+}
+
+button {
+    background-color: rgb(58, 115, 180);
+    padding: 5px;
+    color: white;
+    margin-top: 5px;
+}
+
+.checkerlayoutform p {
+    display: hidden;
+    background-color: rgb(58, 115, 180);
+    color: white;
+     border-radius: 10px;
+}
