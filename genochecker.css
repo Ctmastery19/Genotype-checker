@@ -81,3 +81,26 @@ button {
     color: white;
      border-radius: 10px;
 }
+
+@media screen and (max-width: 600px ){
+    body {
+        background-image: url(genocheckerbgalt.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100vh;
+    }
+
+    .Header h1 {
+        display: none;
+    }
+
+    #webpagelogo {
+        height: 90px;
+        width: 90px;
+        margin-left: 15px;
+    }
+    #genoType2 {
+        margin-top: 0%;
+    }
+}

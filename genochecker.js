@@ -42,3 +42,8 @@ async function checkBg() {
         document.getElementById("resultCheck").innerHTML = "Invalid input!"
     }
 }
+const forms = document.getElementsByClassName("checkerlayoutform");
+
+forms[0].addEventListener("submit", function (e) {
+  e.preventDefault();
+});
